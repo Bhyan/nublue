@@ -7,6 +7,9 @@ module.exports = defineConfig({
     },
     baseUrl: "https://magento2-demo.magebit.com",
     defaultCommandTimeout: 5000,
+    viewportWidth: 1920,
+    viewportHeight: 1080,
     video: true,
+    retries: 1,
   },
 });
