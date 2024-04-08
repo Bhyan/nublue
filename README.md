@@ -34,5 +34,5 @@ $ npm run headless
 - Detalhe do pedido
 
 # Ponto de melhoria
-- Remover o wait implícito para aguardar o carregamento dos SKUs na [página de produto](https://github.com/Bhyan/nublue/blob/main/cypress/support/page/product.js#L9).
+- Remover o wait explícito para aguardar o carregamento dos SKUs na [página de produto](https://github.com/Bhyan/nublue/blob/main/cypress/support/page/product.js#L9).
 
