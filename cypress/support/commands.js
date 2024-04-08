@@ -1,3 +1,5 @@
+import createUser from "../support/page/createUser";
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -23,13 +25,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-import home from '../support/page/home'
-import createUser from '../support/page/createUser'
-
 Cypress.Commands.add("createUser", (user) => {
-    home.go()
-    home.header.clickCreateAccount()
-
-    createUser.checkPage()
-    createUser.fillFormCreateUser(user)
-  });
+  createUser.go();
+  createUser.fillFormCreateUser(user);
+});

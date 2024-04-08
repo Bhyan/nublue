@@ -6,7 +6,7 @@ export default {
       name: faker.name.firstName(),
       lastName: faker.name.lastName(),
       email: faker.internet.email(),
-      password: `#${faker.internet.password({ pattern: /^[\w&.\-]+$/ })}`,
+      password: '#Webjump123',
       streetAddress: faker.location.street(),
       city: faker.location.city(),
       zipCode: faker.location.zipCode(),

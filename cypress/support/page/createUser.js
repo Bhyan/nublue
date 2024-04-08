@@ -1,4 +1,8 @@
 class CreateUser {
+  go() {
+    cy.visit("/customer/account/create/")
+  }
+
   checkPage() {
     cy.contains(".base", "Create New Customer Account");
   }

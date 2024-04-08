@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: "https://magento2-demo.magebit.com",
-    defaultCommandTimeout: 5000
+    defaultCommandTimeout: 5000,
+    video: true,
   },
 });

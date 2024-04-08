@@ -14,7 +14,7 @@ describe("Product", () => {
     product.checkAddToCart();
   });
 
-  it.only("buy a random product", function () {
+  it("buy a random product", function () {
     const newUser = userFactory.user();
     cy.createUser(newUser);
 
